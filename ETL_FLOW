@@ -25,6 +25,15 @@ ETL_Project/
 ├── script/
 │   └── etl_script.py         # Python script for ETL process
 
+## OUTPUT ##
+
+H	Customer_Name	Customer_Id	Open_Date	Last_Consulted_Date	Vaccination_Id	Dr_Name	State	Country 	DOB	   Is_Active	Age	   Days_Since_Last_Consulted
+D	Alex	          123457	12-10-2010	13-10-2012	             MVD	       Paul	SA	      USA	06-03-1987	    TRUE   37             4475
+D	John	          123458	12-10-2010	13-10-2012	             MVD	       Paul	TN	      IND	06-03-1987	    TRUE	37	          4475
+D	Mathew	          123459	12-10-2010	13-10-2012	             MVD	       Paul	WAS	      PHIL	06-03-1987	    TRUE	37	          4475
+D	Matt	          12345 	12-10-2010	13-10-2012	             MVD	       Paul	BOS       NYC	06-03-1987	    TRUE	37	          4475
+D	Jacob	          1256	    12-10-2010	13-10-2012	             MVD	       Paul	VIC	      AU	06-03-1987	    TRUE	37	          4475
+
 
 
 
