@@ -1,0 +1,27 @@
+
+##SQL CREATE TABLE Statement##
+CREATE TABLE Customers (
+    Customer_Name VARCHAR(255) NOT NULL,
+    Customer_Id VARCHAR(18) NOT NULL PRIMARY KEY,
+    Open_Date DATE NOT NULL,
+    Last_Consulted_Date DATE,
+    Vaccination_Id CHAR(5),
+    Dr_Name VARCHAR(255),
+    State CHAR(5),
+    Country CHAR(5),
+    DOB DATE,
+    Is_Active CHAR(1),
+    Age INT,
+    Days_Since_Last_Consult INT
+);
+
+## ETL Flow ##
+ETL_Project/
+├── data/
+│   └── input_data.csv   # Raw data file
+├── output/
+│   ├── processed_output.csv  # Processed output file
+│   └── logs.txt              # Logs for ETL processing
+├── script/
+│   └── etl_script.py         # Python script for ETL process
+
